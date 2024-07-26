@@ -1,0 +1,488 @@
+body {
+    width: 100%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+nav {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.stScreen {
+    width: 100%;
+    height: fit-content;
+    background-image: url(/img/bg.png);
+}
+
+.title {
+    margin-left: clamp(30px, 16%, 300px);
+    margin-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.article {
+    margin-left: clamp(30px, 16%, 300px);
+    width: 870px;
+    padding-top: 50px;
+}
+
+.refchain {
+    margin-bottom: 50px;
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    margin-top: 50px;
+    width: 420px;
+    margin-left: 30px;
+}
+
+.contentthin {
+    margin-top: 30px;
+}
+
+.content {
+    padding-left: 30px;
+    border-left: 1px solid #CCCCCC;
+    width: 430px;
+    font-family: 'CenturyGothic';
+    font-size: 16px;
+    color: #393333;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.content>h3 {
+    font-size: 18px;
+    font-family: 'Radiate Sans SemoBold';
+}
+
+.content>p {
+    width: 100%;
+    padding-left: 15px;
+    border-left: 5px solid #CCCCCC;
+    height: 32px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.articletitle {
+    font-family: 'TTFirs Black';
+    font-size: 56px;
+    color: white;
+    width: clamp(335px, 70%, 1320px);
+}
+
+@font-face {
+    font-family: 'TTFirs Black';
+    src: url(/fonts/TTFirs-Black.ttf);
+}
+
+@font-face {
+    font-family: 'TTFirs ExtraBold';
+    src: url(/fonts/TTFirs-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'TTFirs Medium';
+    src: url(/fonts/TTFirs-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url(/fonts/centurygothic.ttf);
+}
+
+@font-face {
+    font-family: 'CenturyGothic Bold';
+    src: url(/fonts/centurygothic_bold.ttf);
+}
+
+@font-face {
+    font-family: 'Radiate Sans SemoBold';
+    src: url(/fonts/radiate-sans-semi-bold-expanded.ttf);
+}
+
+.Logo {
+    font-size: 36px;
+    margin-right: 15px;
+    font-family: 'TTFirs Black';
+    color: white;
+}
+
+.textNav {
+    font-family: 'CenturyGothic';
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.author {
+    color: white;
+    font-size: 14px;
+    font-family: 'TTFirs Medium';
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.authorname {
+    font-size: 18px;
+    font-family: 'TTFirs ExtraBold';
+}
+
+.authorcontainer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info {
+    font-family: 'CenturyGothic';
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.views {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+
+.infoitem {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.otherinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.otherinfo:last-child {
+
+    margin-right: 0px;
+}
+
+.tag {
+    display: flex;
+    background-color: #FFCF5C;
+    width: min-content;
+    height: 30px;
+    border-radius: 40px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    font-family: 'CenturyGothic';
+    font-size: 14px;
+    color: #393333;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aligncenter {
+    display: flex;
+    align-items: center;
+}
+
+.infoitem>img {
+    margin-right: 10px;
+}
+
+.date>span {
+    font-family: 'CenturyGothic Bold';
+}
+
+.date {
+    margin-right: 20px;
+}
+
+.refchain {
+    font-family: 'CenturyGothic';
+    font-size: 14px;
+}
+
+.refchain>span {
+    font-family: 'CenturyGothic Bold';
+    color: #FFCF5C;
+}
+
+.introduction {
+    font-family: 'CenturyGothic';
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Radiate Sans SemoBold';
+    font-size: 32px;
+    color: #FFCF5C;
+}
+
+.textblock {
+    font-family: 'CenturyGothic';
+    font-size: 16px;
+    color: #393333;
+}
+
+.image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+}
+
+.image>img {
+    margin: 0;
+    width: 870px;
+}
+
+.image>p {
+    display: none;
+}
+
+.image:hover>p {
+    font-family: 'CenturyGothic';
+    color: white;
+    position: absolute;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    z-index: 2;
+    align-self: flex-end;
+}
+
+.image:hover>div {
+    position: absolute;
+    align-self: flex-end;
+    width: 870px;
+    height: 100px;
+    z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+
+.nav2{
+    display: none;
+}
+
+.button
+{
+    width: 175px;
+    height: 44px;
+    background-color: #FFCF5C;
+    color: #393333;
+    font-family: 'CenturyGothic Bold';
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 50px;
+    height: 0px;
+    border-bottom: 2px white solid;
+}
+
+
+
+@media (max-width: 1500px) {
+    aside {
+        display: none;
+    }
+
+    .contentthin {
+        display: flex;
+    }
+}
+
+
+@media (min-width: 1500px) {
+    aside {
+        display: flex;
+    }
+
+    .contentthin {
+        display: none;
+    }
+}
+
+
+@media (max-width:1200px) {
+    header{
+        padding: 0px;
+    }
+    
+    .nav1 {
+        display: none;
+    }
+
+    .nav2
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .nav2>.textNav
+    {
+        display: flex;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .articletitle {
+        font-size: 28px;
+        display: flex;
+        height: max-content;
+        width: fit-content;
+    }
+
+    .stScreen {
+        height: max-content;
+    }
+
+    .author {
+
+        font-size: 12px;
+    }
+
+    .authorcontainer>img {
+        width: 80px;
+    }
+
+    .authorname {
+        font-size: 16px;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    .mainbody
+    {
+        width: 100%;
+        display: block;
+    }
+
+    .article {
+        width: 90%;
+        margin-left: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tag {
+        font-size: 14px;
+    }
+
+    .content
+    {
+        padding-left: 0px;
+    }
+
+    .content>h3 {
+        font-size: 16px;
+    }
+
+    .content>p {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .introduction
+    {
+        font-size: 16px;
+        width: fit-content;
+    }
+
+    h2
+    {
+        font-size: 24px;
+    }
+
+    .image>div
+    {
+        position: absolute;
+        align-self: flex-end;
+        width: 90%;
+        height: 100px;
+        z-index: 1;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    }
+
+    .image>p{
+        font-family: 'CenturyGothic';
+        color: white;
+        position: absolute;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        z-index: 2;
+        align-self: flex-end;
+        font-size: 12px;
+    }
+
+    .image>img{
+        position: relative;
+        width: 100%;
+    }
+
+}
